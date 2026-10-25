@@ -35,17 +35,15 @@ https://www.draw.io?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title
 
 int main() {
    
-    const int DIGITS_BEFORE = 2; // Количество цифр до запятой
-    const int DIGITS_AFTER = 3;  // Количество цифр после запятой
+    const int DIGITS_BEFORE = 2; 
+    const int DIGITS_AFTER = 3;  
 
     setlocale(LC_CTYPE, "");
 
- 
-    float A; // Исходное число
+    float A; 
 
     printf("Введите вещественное число A (например, 21.317): ");
     scanf("%f", &A);
-
 
     int int_part = (int)A; 
     
